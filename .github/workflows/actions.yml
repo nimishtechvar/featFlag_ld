@@ -20,6 +20,6 @@ jobs:
       - name: LaunchDarkly Code References
         uses: launchdarkly/find-code-references@v9
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubToken: ${{ secrets.GTHUB_TOKEN }}
           accessToken: ${{ secrets.LAUNCHDARKLY_ACCESS_TOKEN }}
           projKey: sorting-playlist
