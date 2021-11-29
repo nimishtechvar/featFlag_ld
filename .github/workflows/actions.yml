@@ -21,5 +21,5 @@ jobs:
         uses: launchdarkly/find-code-references@v13
         with:
           accessToken: ${{ secrets.LD_ACCESS_TOKEN }}
-          githubToken: ${{ secrets.GT_TOKEN }}
+          githubToken: ${{ secrets.GTHUB_TOKEN }}
           projKey: default
